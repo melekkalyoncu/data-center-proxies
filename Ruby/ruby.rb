@@ -4,7 +4,7 @@ require 'uri'
 require 'net/http'
 
 uri = URI.parse('https://ifconfig.co/ip')
-proxy = Net::HTTP::Proxy('1.1.1.1:60000', 'username', 'pass')
+proxy = Net::HTTP::Proxy('PROXY:PORT', 'username', 'pass')
 
 req = Net::HTTP::Get.new(uri.path)
 
