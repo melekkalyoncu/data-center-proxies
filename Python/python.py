@@ -6,13 +6,13 @@
     from six.moves.urllib import request
     opener = request.build_opener(
         request.ProxyHandler(
-            {'http': 'http://username:pass@1.1.1.1:60000',
-             'https': 'http://username:pass@1.1.1.1:60000'}))
+            {'http': 'http://username:pass@PROXY:PORT',
+             'https': 'http://username:pass@PROXY:PORT'}))
     print(opener.open('https://ifconfig.co/ip').read())
  if sys.version_info[0]==3:
     import urllib.request
     opener = urllib.request.build_opener(
         urllib.request.ProxyHandler(
-            {'http': 'http://username:pass@1.1.1.1:60000',
-             'https': 'http://username:pass@1.1.1.1:60000'}))
+            {'http': 'http://username:pass@PROXY:PORT',
+             'https': 'http://username:pass@PROXY:PORT'}))
     print(opener.open('https://ifconfig.co/ip').read())
