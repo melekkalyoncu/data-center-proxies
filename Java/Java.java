@@ -4,7 +4,7 @@ import java.io.*;
 public class Example {
     public static void main(String[] args) throws Exception {
         URL url = new URL("https://ifconfig.co/ip");
-				Proxy proxy = new Proxy(Proxy.Type.HTTP, new InetSocketAddress("1.1.1.1", 60000));
+				Proxy proxy = new Proxy(Proxy.Type.HTTP, new InetSocketAddress("PROXY", PORT));
 				Authenticator authenticator = new Authenticator() {
         	public PasswordAuthentication getPasswordAuthentication() {
           	return (new PasswordAuthentication("username","pass".toCharArray()));
