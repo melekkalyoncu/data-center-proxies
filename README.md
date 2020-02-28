@@ -30,7 +30,7 @@ Our Oxylabs team has decades of personal experience in web data harvesting and e
 Data center proxies are private proxies that are not affiliated with an Internet Service Provider (ISP). Data center proxies come from a secondary corporation and provide you with entirely private IP authentication and a high level of anonymity. The main benefit that data center proxies offer is rapid response times. 
 Our Lead Account Manager Nedas talks all about Data center proxies, and how Oxylabs can accommodate even the most diverse business requirements:
   
-  <a href="https://oxylabs.io/products/datacenter-proxies"><img src="https://mcusercontent.com/7dd282e07b7cc1ee95789dcae/video_thumbnails_new/ef291f9b07ce350fe732d1d8ee64f23c.png" class="center" border="0" /></a>
+  <a href="https://oxylabs.io/products/datacenter-proxies"><img src="https://mcusercontent.com/7dd282e07b7cc1ee95789dcae/video_thumbnails_new/ef291f9b07ce350fe732d1d8ee64f23c.png" align="middle" border="0" /></a>
   
 ## Getting started
 <br> 1. [Create Oxylabs account](https://oxylabs.io)
